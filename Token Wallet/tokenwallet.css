@@ -1,0 +1,366 @@
+ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+	    body
+	    {
+	       width: 100%;
+	    }
+	    a
+	    {
+	    	text-decoration: none;
+	    }
+	    .login_bg
+	    {
+			width: 100%;
+			height: 100%;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			background: #000000;
+			filter: alpha(opacity=30);
+			-moz-opacity: 0.3;
+			-khtml-opacity: 0.3;
+			opacity: 0.3;
+			display: none;
+	    }
+	    .login
+	    {
+			width: 512px;
+			position: absolute;
+			border: #ebebeb solid 1px;
+			height: 500px;
+			left: 50%;
+			right: 50%;
+			background: #ffffff;
+			box-shadow: 0px 0px 20px #ddd;
+			z-index: 9999;
+			margin-left: -250px;
+			margin-top: -100px;
+			display: none;
+
+	    }
+	    .login_title
+	    {
+           width: 20px;
+           height: 20px;
+           color: red;
+           background-color: #ccc;
+           position:absolute;
+           font-weight: bold;
+           border-radius: 50%;
+           text-align: center;
+           line-height: 20px;
+           right: 5px;
+           top:5px;
+           cursor: pointer;
+	    }
+	    .login_content
+	    {
+            width: 512px;
+            margin-top:80px;
+            box-sizing: border-box;
+	    }
+	    .login_content span:first-child
+	    {
+	    	display: inline-block;
+	    	width: 512px;
+	    	height: 50px;
+	    	font-size: 25px;
+	    	font-weight: bold;
+	    	text-align: center;
+	    	line-height: 50px;
+	    } 
+	    .login_content div
+	    {
+	    	margin-top: 50px;
+	    }
+
+	     .login_content label
+	     {
+	     	font-size: 20px;
+	     	margin-left: 40px;
+	     	margin-top: 20px;
+	     }
+	    .login_content div span
+	    {
+	    	display: inline-block;
+	    	width: 300px;
+	    	background-color: #ccc;
+	    	border-radius: 5px;
+	    }
+	    .login_button
+	    {
+	    	  width: 150px;
+              height: 50px;
+              background-color: blue;
+              border-radius: 5px;
+              font-size: 25px;
+              color: white;
+              text-align: center;
+              line-height: 50px;
+              margin: 70px auto;
+              cursor: pointer;
+	    }
+
+	    .login #success1
+	    {
+	    	width: 512px;
+	    	height: 50px;
+	    	font-size: 25px;
+	    	font-weight: bold;
+	    	text-align: center;
+	    }
+		.toubu
+		{
+             width: 100%;
+             height: 100px;
+             background-color: blue;
+             background: linear-gradient(to right, red , blue); /* 标准的语法（必须放在最后） */
+             padding-left: 50px; 
+             box-sizing: border-box;
+		}
+		.toubu h1
+		{
+			line-height: 100px;
+
+		}
+		.content
+		{
+			/*margin:0 auto;*/
+		    position: relative;
+		}
+		.daohanglan
+		{
+            
+		}
+		.daohanglan ul
+		{
+			list-style: none;
+		}
+        .daohanglan ul li
+        {
+        	/*height: 50px;*/
+        	/*width: 150px;*/
+            background-color:yellow;
+            margin-top: 2px;
+            line-height: 50px;
+            text-align: center;
+            cursor: pointer;
+
+        }
+
+        .daohanglan ul li:first-child
+        {
+        	margin-top: 0px;
+        }
+        .daohanglan ul li:hover
+        {
+            background-color: skyblue;
+        }
+
+        .content .r_content
+        {
+        	
+            position: absolute;
+            top:0;
+        }
+        .content .r_content .r_ul
+        {
+        	list-style: none;
+        	
+        	height: 500px;
+        	overflow: hidden;
+            border: 2px solid black;
+            box-sizing: border-box;
+            
+        }
+        .content .r_content .r_ul li
+        {
+
+        	
+        	width:100%;
+            height:500px; 
+            display: none;
+        }  
+        .content .r_content .r_ul li span
+        {
+        	width: 100%;
+        	display: inline-block;
+        	text-align: center;
+        }
+      
+        .content .r_content .r_ul li .anniu
+        {
+        	
+            
+        	width:100%;
+        	margin-top:25px;
+        	text-align: center;
+
+        }
+         .content .r_content .r_ul li .baocun
+         {
+         	text-align: center;
+         	margin-top:70px;
+         }
+          .content .r_content .r_ul li #download
+          {
+          	  width: 280px;
+          	  height: 50px;
+          	  background-color: blue;
+              color: white;
+              margin:0 auto;
+              line-height: 50px;
+              text-align: center;
+              margin-top: 40px;
+              border-radius: 5px;
+              cursor: pointer;
+          }
+          .content .r_content .r_ul li #continued
+          {
+          	   width: 220px;
+          	   height: 40px;
+          	   background-color:#EA4B40FF;
+          	   margin:60px auto;
+          	   color: white;
+          	   line-height: 40px;
+          	   border-radius:5px;
+          	   text-align: center;
+          	   opacity: 0.7;
+               cursor: pointer;
+          }
+          .content .r_content .r_ul li #pKey
+          {
+          	width: 500px;
+          	height: 100px;
+          	background-color: #ccc;
+          	margin:20px auto;
+          	border-radius: 5px;
+          }
+          .content .r_content .r_ul li  .accounts
+          {
+          	margin: 225px auto;
+          	width: 350px;
+
+          }
+           .content .r_content .r_ul li  .accounts div
+           {
+      
+           	   width: 170px;
+           	   cursor: pointer;
+           	   margin: 0 auto;
+
+           }
+           .content .r_content .r_ul li .balance
+           {
+           	  width: 170px;
+           	  height: 50px;
+           	  background-color: blue;
+              border-radius: 5px;
+              color: white;
+              line-height: 50px;
+           	  text-align: center;
+           	  font-size: 25px;
+  
+           }
+           .content .r_content .r_ul li .transfer
+           {
+
+           	  width: 170px;
+           	  height: 50px;
+           	  background-color: blue;
+           	  border-radius: 5px;
+           	  color: white;
+           	  line-height: 50px;
+           	  text-align: center;
+           	  margin-left: 15px;
+           	  font-size: 25px;
+           	  margin:225px auto;
+           	  cursor: pointer;
+           }
+            .content .r_content .r_ul li #check
+            {
+            	background:blue;
+            	color:white;
+            	width:150px;
+            	height:50px;
+            	margin:0 auto;
+            	text-align:center;
+            	font-size:25px;
+            	line-height: 50px;
+            	border-radius: 5px;
+            	margin-top: 20px;
+                cursor: pointer;
+                display: none;
+            }
+            .content .r_content .r_ul li #balancePage
+            {
+                width: 500px;
+                height: 200px;
+                background-color: #EDEDEDFF;
+                margin: 150px auto;
+                box-shadow:2px 2px 3px #aaaaaa;
+                padding-top: 80px;
+                box-sizing: border-box;
+                text-align: center;
+
+            }
+             .content .r_content .r_ul li #balancePage h2
+             {
+             	width: 26px;
+             	display: inline-block;
+             }
+             .content .r_content .r_ul li #unlock
+             {
+             	background:blue;
+            	color:white;
+            	width:150px;
+            	height:50px;
+            	margin:0 auto;
+            	text-align:center;
+            	font-size:25px;
+            	line-height: 50px;
+            	border-radius: 5px;
+            	margin-top: 20px;
+              cursor: pointer;
+              display: none;
+
+             }
+             .content .r_content .r_ul li #table0
+             {
+             	margin:0 auto;
+             	width: 300px;
+             	height: 500px;
+             	/*text-align: center;*/
+             }
+           
+              .content .r_content .r_ul li #table0 tr
+              {
+              	
+                height:  100px;
+              }
+               .content .r_content .r_ul li #table0 tr:last-child
+               {
+               	height: 70px;
+               }
+
+              .content .r_content .r_ul li #table0 span
+              {
+              	text-align: left;
+              	font-size: 20px;
+              	font-weight: bold;
+              }
+              .content .r_content .r_ul li #table0 span:last-child
+              {
+              	text-align: center;
+              	background-color: blue;
+              	border-radius: 5px;
+              	width: 180px;
+              	color:white;
+              	height: 50px;
+              	line-height: 50px;
+              	cursor: pointer;
+              }
+               .content .r_content .r_ul li #table0 input
+               {
+               	width: 300px;
+                height: 26px;
+               }

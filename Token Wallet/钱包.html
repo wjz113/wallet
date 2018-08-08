@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Token Wallet</title>
+	<link rel="stylesheet" type="text/css" href="tokenwallet.css">
+</head>
+<body>
+<div class="box" id="box">
+	<div class="toubu" id="toubu">
+		<h1>Token Wallet</h1>
+	</div>
+	<div class="content" id="content">
+	 <div class="daohanglan" id="daohanglan">
+		<ul class="daoul" id="daoul">
+			<li >注册</li>
+			<li >查询</li>
+			<li >转账</li>
+		</ul>
+	 </div>
+	 <div class="r_content" id="r_content">
+		<ul class="r_ul" id="r_ul">
+			<li style="display: block;" class="Wallet" id="Wallet">
+			
+					<span style="font-size: 40px;margin-top:90px;">生成钱包</span>
+					<span style="font-size: 16px;margin-top: 20px;font-weight: bold;">输入一个密码(至少为9位)</span>
+					<span style="margin-top: 40px;"><input id="password" type="password" name="" style="text-align: center;margin: 0 auto;   border:1px solid #ccc;border-radius:3px;width:250px;height: 35px;font-size: 16px;" placeholder="Don't forget to keep it!"></span>
+			        <div id="anniu" class="anniu">
+			        	<span style="font-size: 30px;background-color: blue;width: 170px;height: 50px;line-height:50px;border-radius: 7px;cursor: pointer;color:white;" id="send"> 生成</span>
+				    
+			        </div>
+				
+			</li>
+			<li><div id="accounts" class="accounts"><div id="balance" class="balance">查询余额</div></div></li>
+			<li><div id="transfer" class="transfer">转账</div></li>
+		</ul>
+	 </div>
+	
+	</div>
+</div>
+<div id="login" class="login"> 
+	<div id="login_title" class="login_title">X</div>
+	<div id="login_content" class="login_content">
+		 <span>交易信息</span>
+		
+		<div><label>发送至地址:</label> <span></span></div>
+		<div><label>转账数额:</label> <span></span></div>
+	
+		
+	</div>
+	<div id="login_button" class="login_button">
+	    继续交易
+	</div>
+</div>
+<div id="login_bg" class="login_bg">
+     
+ </div>
+</div>
+</body>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+<script src="tokenwallet.js"></script>
+</html>
